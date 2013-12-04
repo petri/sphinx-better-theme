@@ -240,6 +240,8 @@ nav#breadcrumbs li+li:before {
     {#- width: calc({{ theme_sidebarwidth }} - 5rem); #}
     {#- width: -webkit-calc({{ theme_sidebarwidth }} - 5rem); #}
     width: 90%;
+    border: none;
+    border-bottom: solid thin rgb(228, 228, 228);
     display: inline-block;
 }
 
